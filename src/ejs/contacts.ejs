@@ -1,0 +1,72 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/index.min.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="overlay"></div>
+            <%- include("components/header.ejs") -%>
+            <div class="adress">
+                <div class="container">
+                    <div class="adress__block">
+                        <div class="adress-title title">Контакты</div>
+                        <div class="adress-subtitle">ООО “Бизнес Групп”</div>
+                        <div class="adress__main">
+                            <div class="adress__top">
+                                <div class="adress__text">
+                                    <div class="adress__text-item">
+                                        <div class="adress__text-title">Адрес</div>
+                                        <div class="adress__text-value">
+                                            г. Москва, ул. Антона-Овсеенко, 15, стр. 3
+                                        </div>
+                                    </div>
+                                    <div class="adress__text-item">
+                                        <div class="adress__text-title">Телефон</div>
+                                        <div class="adress__text-value">8 499 110-60-70</div>
+                                    </div>
+                                    <div class="adress__text-item">
+                                        <div class="adress__text-title">Электронная почта</div>
+                                        <div class="adress__text-value">andreevka@delaem24.ru</div>
+                                    </div>
+                                </div>
+                                <div class="adress__map">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1198.0113609430218!2d37.619308833530816!3d55.753743471071964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5759f5b76b%3A0xde502cd817a1b053!2z0JzQsNCy0LfQvtC70LXQuSDQki7QmC4g0JvQtdC90LjQvdCwINC90LAg0JrRgNCw0YHQvdC-0Lkg0L_Qu9C-0YnQsNC00Lg!5e0!3m2!1sru!2sru!4v1624785906400!5m2!1sru!2sru"
+                                        width="100%"
+                                        height="100%"
+                                        style="border: 0"
+                                        allowfullscreen=""
+                                        loading="lazy"
+                                    ></iframe>
+                                </div>
+                            </div>
+                            <div class="adress__images">
+                                <div class="adress__images-column">
+                                    <div class="adress__images-item">
+                                        <img src="../images/templates/contacts/01.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="adress__images-column">
+                                    <div class="adress__images-item">
+                                        <img src="../images/templates/contacts/02.jpg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="adress__images-column">
+                                    <div class="adress__images-item">
+                                        <img src="../images/templates/contacts/03.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <%- include("components/footer.ejs") -%>
+        </div>
+        <script src="./js/index.min.js"></script>
+    </body>
+</html>

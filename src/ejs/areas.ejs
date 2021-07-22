@@ -1,0 +1,87 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/index.min.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="overlay"></div>
+            <%- include("components/header.ejs") -%>
+            <div class="areas">
+                <div class="container">
+                    <div class="areas__block">
+                        <div class="areas-title title">Участки под ИЖС</div>
+                        <div class="areas__selects">
+                            <div class="areas__selects-items">
+                                <div class="areas__selects-item">
+                                    <div class="select-wrapper">
+                                        <select class="select" name="" id="">
+                                            <option value="" disabled selected hidden>
+                                                Площадь от
+                                            </option>
+                                            <option value="">1 га</option>
+                                            <option value="">2 га</option>
+                                            <option value="">3 га</option>
+                                        </select>
+                                    </div>
+                                    <div class="select-wrapper">
+                                        <select class="select" name="" id="">
+                                            <option value="" disabled selected hidden>до</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="areas__selects-item">
+                                    <div class="select-wrapper">
+                                        <select class="select" name="" id="">
+                                            <option value="" disabled selected hidden>
+                                                Цена от
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="select-wrapper">
+                                        <select class="select" name="" id="">
+                                            <option value="" disabled selected hidden>до</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="areas__selects-item">
+                                    <div class="select-wrapper">
+                                        <select class="select" name="" id="">
+                                            <option value="" disabled selected hidden>
+                                                Назначение
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="select-wrapper">
+                                        <select class="select" name="" id="">
+                                            <option value="" disabled selected hidden>
+                                                Расположение
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="areas__selects-btn btn"><span>Подобрать</span></button>
+                        </div>
+                        <div class="areas__items">
+                            <%- include("components/sites-item.ejs") -%> <%-
+                            include("components/sites-item.ejs") -%> <%-
+                            include("components/sites-item.ejs") -%> <%-
+                            include("components/sites-item.ejs") -%> <%-
+                            include("components/sites-item.ejs") -%> <%-
+                            include("components/sites-item.ejs") -%> <%-
+                            include("components/sites-item.ejs") -%> <%-
+                            include("components/sites-item.ejs") -%> <%-
+                            include("components/sites-item.ejs") -%>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <%- include("components/contacts.ejs") -%> <%-include("components/footer.ejs") -%>
+        </div>
+        <script src="./js/index.min.js"></script>
+    </body>
+</html>
