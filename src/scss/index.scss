@@ -2582,6 +2582,18 @@ textarea {
     }
 }
 @media screen and (max-width: 480px) {
+    .header {
+        &-title {
+            font-size: 28px;
+            font-weight: 600;
+        }
+        &__video-icon {
+            margin-right: 15px;
+        }
+        &-btn {
+            height: 45px;
+        }
+    }
     .sites {
         &__column {
             flex: 0 0 100%;
