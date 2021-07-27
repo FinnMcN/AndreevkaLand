@@ -186,6 +186,7 @@ img {
     &-name {
         font-family: "Ogg";
         font-size: 36px;
+        color: inherit;
         @media screen and (max-width: 1200px) {
             font-size: 24px;
         }
@@ -193,6 +194,7 @@ img {
     &-desc {
         font-family: "Hairline";
         font-size: 24px;
+        color: inherit;
         @media screen and (max-width: 1200px) {
             font-size: 20px;
         }
